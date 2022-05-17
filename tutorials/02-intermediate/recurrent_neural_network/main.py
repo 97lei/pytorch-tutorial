@@ -8,8 +8,8 @@ import torchvision.transforms as transforms
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Hyper-parameters
-sequence_length = 28
-input_size = 28
+sequence_length = 28    #句子长度
+input_size = 28         
 hidden_size = 128
 num_layers = 2
 num_classes = 10
